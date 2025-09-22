@@ -1,12 +1,19 @@
 Timing benchmark between Insertion Sort and Merge Sort
 
-ARGUMENTS:
-    ./main.exe [#elements in array] [#times to run test] "--sorted"(OPTIONAL, makes array order sorted)
+ARGUMENTS
+
+    ./main.exe [#elements in array] [#times to run test] "--sorted" (OPTIONAL, makes array order sorted)
+    
     argv[1] -> [INT] :: Number of elements in the array (n) 
+    
     argv[2] -> [INT] :: Number of iteratios to run the test
+    
     argv[3] -> ["--sorted"] :: (Optional) Makes array sorted upon generation
-ex/
+    
+Example
+
     ./main.exe 1000 100 "--sorted"
+    
     ./main.exe 10000 1000
 
 Table made by ChatGPT 5.0: 
